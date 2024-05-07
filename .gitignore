@@ -1,0 +1,110 @@
+# Compiled object files
+*.o
+*.so
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+*.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Dependency files
+*.d
+
+# Assembly files
+*.s
+
+# Archive files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.gz
+
+# Build folders
+build/
+out/
+release/
+debug/
+bin/
+obj/
+dist/
+temp/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Specific to C/C++
+*.sln
+*.suo
+*.user
+*.userprefs
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.db
+
+# Specific to Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Node.js / NPM
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Specific to Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# Specific to other languages you might use
+
+# Environment files
+.env
+
+# Ignore specific configuration files or scripts
+config.inc
+*.config
+
+# Other files and folders to ignore based on specific needs
+# Add here
