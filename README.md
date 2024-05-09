@@ -20,12 +20,34 @@ LTE specification and sections:
 Compile on ARM or Docker Container
 ==================================
 **- To build on a Raspberry Pi or similar ARM device:**
-```sh
-$ autoreconf -i
-$ ./configure
-$ make
-$ sudo make install
-```
+1. **Update and Upgrade the System**:
+   Before you start, ensure your system is up-to-date. This helps in reducing compatibility issues with packages.
+   ```sh
+   $ sudo apt update
+   $ sudo apt upgrade -y
+   ```
+
+2. **Install Required Packages**:
+   To use `autoreconf` and `./configure`, you will need the Autoconf, Automake, and Libtool packages, along with the GCC compiler and Make utility.
+   ```sh
+   $ sudo apt install -y autoconf automake libtool build-essential
+   ```
+
+3. **Clone the repository**:
+   Get the source code:
+   ```sh
+   $ git clone git@github.com:udevlog/turbofec-arm.git
+   $ cd turbofec-arm
+   ```
+
+4. **Run the Build Commands**:
+   Now you can run the build commands as specified:
+   ```sh
+   $ autoreconf -i
+   $ ./configure
+   $ make
+   $ sudo make install
+   ```
 
 **- To build in a Docker container:**
 
